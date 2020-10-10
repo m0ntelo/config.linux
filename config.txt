@@ -1,0 +1,33 @@
+-- install git linux
+
+sudo apt-get update 
+sudo apt-get install git
+
+-- chave ssh
+
+sudo ssh-keygen -t rsa -C wilson.montelo@hotmail.com
+
+-- copiar chave publica
+
+cat .ssh/id_rsa.pub
+
+-- teste ssh
+
+ssh -T git@github.com
+
+-- install zsh
+
+sudo apt install zsh
+
+-- utilizar zsh como default no terminal
+
+sudo gedit /etc/passwd
+
+editar linha de: nome.usuario bin/bash
+editar linha para: nome.usuario bin/zsh
+
+-- mudar tema 
+
+ZSH_THEMA=
+
+temas: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
