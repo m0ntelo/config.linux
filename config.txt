@@ -31,3 +31,11 @@ editar linha para: nome.usuario bin/zsh
 ZSH_THEMA=
 
 temas: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+
+-- instalar steam
+
+https://www.edivaldobrito.com.br/cliente-steam-no-ubuntu/
+
+-- controle de audio
+
+https://linuxdicasesuporte.blogspot.com/2015/06/pavucontrol-um-super-controlador-de.html
